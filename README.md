@@ -53,9 +53,9 @@ limit_req_zone $binary_remote_addr zone=one:10m rate=30r/m;
 ---
 limit_req zone=one;
 ---
----
+
 4. Restart NGINX server using the below code
+
 ---
-
 sudo systemctl restart nginx
-
+---
